@@ -1,4 +1,4 @@
-const FORM_ENDPOINT = "https://script.google.com/macros/s/AKfycbyIJJl8Udd0f5W7kZEwm-u1hg6CcPJGdXkgsV5yGkoQsYfD9wZwAE8Vu_PPhSwL3HjKsQ/exec";
+const FORM_ENDPOINT = "PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE";
 
 const form = document.getElementById("estimateForm");
 const message = document.getElementById("formMessage");
