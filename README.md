@@ -1,3 +1,3 @@
-# Semper Fi Removal Website
+# Semper Fi Removal Website 2.0
 
-Plain HTML/CSS/JavaScript website. Open `index.html` with Live Server. Upload all files and folders to GitHub.
+Static HTML/CSS/JS website with estimate form integration.
