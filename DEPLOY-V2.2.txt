@@ -1,0 +1,24 @@
+SEMPER FI REMOVAL WEBSITE V2.2 — CORRECTED DEPLOYMENT
+
+The previous V2.1 package still contained the older circular bulldog homepage assets.
+This corrected package uses:
+- Silver two-tone bulldog logo
+- Red SEMPER FI REMOVAL wordmark treatment
+- American flag hero treatment
+- Excursion and trailer hero image
+- Gold, Marine Blue, red, silver, and black brand palette
+- Updated email: info@semperfiremovalmd.com
+- Call, Text, and Estimate buttons
+
+IMPORTANT:
+1. Open this ZIP.
+2. Upload the CONTENTS of the ZIP to the ROOT of your GitHub repository.
+3. Replace every old file when asked. Do not upload the enclosing folder as a subfolder.
+4. Confirm that index.html is at the repository root beside CNAME.
+5. In GitHub, wait for the Pages deployment to finish.
+6. Hard refresh the browser:
+   Windows: Ctrl + Shift + R
+   Mac: Command + Shift + R
+7. If Cloudflare or another CDN is connected, purge its cache.
+
+The stylesheet is cache-busted as site-v22.css?v=20260717-2.
