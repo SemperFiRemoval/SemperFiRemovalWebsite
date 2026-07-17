@@ -979,3 +979,201 @@ footer {
     width: 150px;
   }
 }
+
+
+/* ==========================================================
+   VIVID OFFICIAL-COLOR MOBILE PASS
+   ========================================================== */
+
+@media (max-width: 899px) {
+  :root {
+    --mobile-navy-bright: #12345F;
+    --mobile-navy-deep: #071A33;
+    --mobile-crimson-bright: #D62E2E;
+    --mobile-crimson-deep: #A01818;
+    --mobile-gold-bright: #E2BF70;
+    --mobile-cream-bright: #FFF8E8;
+  }
+
+  .mobile-header {
+    background: linear-gradient(180deg, #242424 0%, #171717 100%);
+    border-bottom: 2px solid var(--mobile-gold-bright);
+  }
+
+  .mobile-brand strong {
+    color: var(--mobile-gold-bright);
+    text-shadow: 0 1px 0 rgba(0,0,0,.55);
+  }
+
+  .mobile-brand small {
+    color: var(--mobile-cream-bright);
+  }
+
+  .menu-toggle {
+    border: 2px solid var(--mobile-gold-bright);
+    background: linear-gradient(180deg, #163E70, #0B2446);
+    color: #FFFFFF;
+    box-shadow:
+      inset 0 0 0 1px rgba(255,255,255,.12),
+      0 6px 14px rgba(0,0,0,.28);
+  }
+
+  .mobile-hero {
+    background:
+      radial-gradient(circle at 78% 82%, rgba(226,191,112,.24), transparent 34%),
+      linear-gradient(180deg, #191919 0%, #151515 52%, #090909 100%);
+  }
+
+  .mobile-flag {
+    opacity: .34;
+    filter: saturate(1.22) contrast(1.08);
+    background:
+      linear-gradient(105deg, rgba(11,31,58,.60) 0 39%, transparent 39%),
+      repeating-linear-gradient(
+        0deg,
+        rgba(190,40,40,.82) 0 7.7%,
+        rgba(245,241,232,.20) 7.7% 15.4%
+      );
+  }
+
+  .mobile-flag::before {
+    opacity: .55;
+    background:
+      radial-gradient(circle, rgba(255,255,255,.92) 0 1.15px, transparent 1.4px);
+    background-size: 25px 22px;
+    background-color: #0B2B52;
+  }
+
+  .mobile-copy .eyebrow {
+    color: var(--mobile-gold-bright);
+    text-shadow: 0 2px 7px rgba(0,0,0,.75);
+  }
+
+  .mobile-copy h1 {
+    color: #FFFFFF;
+    text-shadow:
+      0 3px 0 rgba(0,0,0,.65),
+      0 8px 18px rgba(0,0,0,.48);
+  }
+
+  .mobile-copy h1 span {
+    color: var(--mobile-gold-bright);
+    text-shadow:
+      0 2px 0 rgba(77,48,0,.58),
+      0 8px 18px rgba(0,0,0,.46);
+  }
+
+  .mission {
+    color: #FFFFFF;
+  }
+
+  .mission strong {
+    color: var(--mobile-gold-bright);
+  }
+
+  .mobile-copy > p:not(.eyebrow):not(.mission) {
+    color: var(--mobile-cream-bright);
+  }
+
+  .red-button,
+  .mobile-actions a:first-child {
+    background:
+      linear-gradient(180deg, #E43B3B 0%, var(--mobile-crimson-bright) 52%, var(--mobile-crimson-deep) 100%);
+    border: 1px solid #F05C5C;
+    color: #FFFFFF;
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,.20),
+      0 10px 24px rgba(0,0,0,.34);
+  }
+
+  .gold-button {
+    border: 2px solid var(--mobile-gold-bright);
+    background: linear-gradient(180deg, #242424 0%, #131313 100%);
+    color: #F4D789;
+    box-shadow:
+      inset 0 0 0 1px rgba(255,255,255,.08),
+      0 9px 22px rgba(0,0,0,.30);
+  }
+
+  .mobile-art {
+    background:
+      radial-gradient(circle at 79% 30%, rgba(226,191,112,.16), transparent 28%),
+      linear-gradient(180deg, #0B1F3A 0%, #121212 100%);
+    border-top: 1px solid rgba(226,191,112,.45);
+  }
+
+  .mobile-art::before {
+    background:
+      linear-gradient(180deg, #090909 0%, transparent 15%, transparent 84%, #090909 100%),
+      linear-gradient(90deg, rgba(7,26,51,.56) 0%, transparent 42%);
+  }
+
+  .mobile-art .truck {
+    opacity: .96;
+    filter: brightness(.90) contrast(1.12) saturate(1.18);
+  }
+
+  .mobile-art .badge {
+    filter:
+      saturate(1.16)
+      contrast(1.06)
+      drop-shadow(0 13px 22px rgba(0,0,0,.72));
+  }
+
+  .promise-strip {
+    background: linear-gradient(180deg, #0E315D, #071A33);
+    border-color: rgba(226,191,112,.60);
+  }
+
+  .promise-strip strong {
+    color: #FFFFFF;
+  }
+
+  .promise-strip span {
+    color: #FFF3D7;
+  }
+
+  .motto-band {
+    background: linear-gradient(90deg, #111111, #0B1F3A, #111111);
+    border-block: 1px solid rgba(226,191,112,.42);
+  }
+
+  .motto-band p {
+    color: var(--mobile-gold-bright);
+  }
+
+  .service-grid a {
+    border: 2px solid var(--mobile-gold-bright);
+    background:
+      linear-gradient(145deg, #FFF0BF 0%, #E0B861 52%, #C5973D 100%);
+    color: #171717;
+    box-shadow:
+      inset 0 0 0 3px rgba(255,255,255,.18),
+      0 13px 26px rgba(0,0,0,.28);
+  }
+
+  .service-grid h3,
+  .service-grid p {
+    color: #181818;
+  }
+
+  .company-motto {
+    background: linear-gradient(90deg, #0B1F3A, #171717 50%, #0B1F3A);
+    border-color: rgba(226,191,112,.48);
+  }
+
+  .company-motto h2,
+  .company-motto p {
+    color: #FFFFFF;
+  }
+
+  .company-motto h2 strong,
+  .company-motto p strong {
+    color: var(--mobile-gold-bright);
+  }
+
+  .mobile-actions a:last-child {
+    background: linear-gradient(180deg, #17477E, #0B2A53);
+    color: #F1D078;
+  }
+}
