@@ -1,0 +1,24 @@
+SEMPER FI REMOVAL — NAVY / GOLD / RED / WHITE WEBSITE
+
+This version uses the uploaded website design as a visual template.
+
+IMPORTANT:
+The uploaded image contained an old phone number and an unconfirmed
+"Licensed & Insured" statement. The site does NOT display those portions
+of the image. A safe crop is used for the hero artwork, while the live HTML
+shows the correct phone number:
+
+(240) 317-4193
+
+FILES ADDED:
+assets/images/hero-template.webp
+assets/images/brand-reference.png
+
+UPLOAD:
+Upload the CONTENTS of this package to the root of your GitHub repository.
+Preserve the assets/css, assets/js, and assets/images folder structure.
+
+TEST:
+https://www.semperfiremovalmd.com/?theme=navy2
+
+Then press Ctrl + Shift + R.
