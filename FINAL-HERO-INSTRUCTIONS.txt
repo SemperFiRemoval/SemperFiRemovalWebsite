@@ -1,0 +1,28 @@
+SEMPER FI REMOVAL — FINAL HERO WEBSITE
+
+This package implements the selected homepage design as a real responsive website.
+
+KEY FEATURES
+- Black professional background
+- Fading American flag created with CSS
+- Live HTML text instead of text baked into an image
+- Ford Excursion/trailer image on the right
+- Large circular Semper Fi logo on the right
+- Correct phone number: (240) 317-4193
+- Three simplified trust cards
+- Four simplified service cards
+- Mobile-responsive layout
+
+UPLOAD
+1. Unzip this file.
+2. Upload the CONTENTS to the root of your GitHub repository.
+3. Preserve all assets folders.
+4. Replace matching files.
+5. Commit to the main branch.
+6. Wait 2–5 minutes.
+
+TEST
+https://www.semperfiremovalmd.com/?design=final
+
+Hard refresh:
+Ctrl + Shift + R
