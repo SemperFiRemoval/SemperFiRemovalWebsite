@@ -1,0 +1,30 @@
+SEMPER FI REMOVAL — PREMIUM MOBILE OPTIMIZED SITE
+
+MOBILE IMPROVEMENTS
+- Shorter, better-balanced hero
+- Smaller headline to prevent awkward wrapping
+- Softer American flag treatment
+- Removed the heavy dotted-star appearance
+- Excursion and circular logo moved higher into the hero
+- Truck artwork blends into the background
+- More compact header
+- Cleaner buttons and spacing
+- Better transition into the scrollable homepage
+- Sticky Free Estimate and Call Now bar retained
+
+UPLOAD
+1. Unzip this package.
+2. Select everything inside the extracted folder.
+3. Drag it into the ROOT of your GitHub repository.
+4. Preserve assets/css, assets/js, and assets/images.
+5. Replace matching files.
+6. Commit to the main branch.
+7. Wait 2–5 minutes.
+8. Test on your phone:
+   https://www.semperfiremovalmd.com/?mobile=premium2
+
+IMPORTANT
+Safari may cache CSS aggressively. After deployment:
+- Close the existing website tab.
+- Open the test URL in a new tab.
+- Or clear Safari website data for semperfiremovalmd.com.

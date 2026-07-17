@@ -710,3 +710,272 @@ footer {
     box-shadow: inset 0 0 0 3px rgba(255,255,255,.10), 0 12px 24px rgba(0,0,0,.22);
   }
 }
+
+
+/* ==========================================================
+   PREMIUM MOBILE HERO OPTIMIZATION
+   ========================================================== */
+
+@media (max-width: 899px) {
+  body {
+    padding-bottom: 64px;
+    background: var(--charcoal);
+  }
+
+  .mobile-header {
+    min-height: 66px;
+    padding: 7px 12px;
+    background:
+      linear-gradient(180deg, rgba(28,28,28,.99), rgba(18,18,18,.99));
+    box-shadow: 0 8px 24px rgba(0,0,0,.28);
+  }
+
+  .mobile-brand {
+    gap: 9px;
+  }
+
+  .mobile-brand img {
+    width: 46px;
+    height: 46px;
+  }
+
+  .mobile-brand strong {
+    font-size: 1.16rem;
+    line-height: 1;
+  }
+
+  .mobile-brand small {
+    margin-top: 4px;
+    font-size: .52rem;
+  }
+
+  .menu-toggle {
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    background: rgba(11,31,58,.45);
+  }
+
+  .mobile-hero {
+    position: relative;
+    min-height: 625px;
+    padding: 42px 16px 292px;
+    background:
+      radial-gradient(circle at 86% 72%, rgba(200,163,93,.13), transparent 31%),
+      linear-gradient(180deg, #101010 0%, #151515 58%, #080808 100%);
+  }
+
+  /* Softer, more realistic flag without the dotted appearance. */
+  .mobile-flag {
+    opacity: .20;
+    background:
+      linear-gradient(105deg, rgba(11,31,58,.68) 0 39%, transparent 39%),
+      repeating-linear-gradient(
+        0deg,
+        rgba(178,34,34,.70) 0 7.7%,
+        rgba(245,241,232,.12) 7.7% 15.4%
+      );
+    filter: blur(.15px);
+    mask-image: linear-gradient(
+      180deg,
+      rgba(0,0,0,.95) 0%,
+      rgba(0,0,0,.72) 48%,
+      transparent 78%
+    );
+  }
+
+  .mobile-flag::before {
+    width: 43%;
+    height: 31%;
+    opacity: .30;
+    background:
+      radial-gradient(circle, rgba(255,255,255,.82) 0 1px, transparent 1.25px);
+    background-size: 26px 22px;
+    background-color: rgba(11,31,58,.88);
+  }
+
+  .mobile-copy {
+    max-width: 500px;
+  }
+
+  .mobile-copy .eyebrow {
+    max-width: 100%;
+    margin-bottom: 13px;
+    font-size: .72rem;
+    line-height: 1.35;
+    letter-spacing: .11em;
+  }
+
+  .mobile-copy h1 {
+    font-size: clamp(3rem, 14vw, 4.15rem);
+    line-height: .90;
+    letter-spacing: .005em;
+    text-shadow: 0 4px 14px rgba(0,0,0,.75);
+  }
+
+  /* Prevent the awkward Veteran-/Owned line break. */
+  .mobile-copy h1 {
+    white-space: normal;
+  }
+
+  .mobile-copy h1::first-line {
+    white-space: nowrap;
+  }
+
+  .mobile-copy h1 span {
+    margin-top: 7px;
+    font-size: .94em;
+  }
+
+  .mission {
+    max-width: 460px;
+    margin: 21px 0 0;
+    font-size: .78rem;
+    line-height: 1.55;
+    letter-spacing: .018em;
+  }
+
+  .mobile-copy > p:not(.eyebrow):not(.mission) {
+    max-width: 455px;
+    margin: 15px 0 0;
+    color: rgba(245,241,232,.90);
+    font-size: .91rem;
+    line-height: 1.58;
+  }
+
+  .mobile-buttons {
+    position: relative;
+    z-index: 8;
+    gap: 11px;
+    margin-top: 21px;
+  }
+
+  .mobile-buttons a {
+    min-height: 52px;
+    border-radius: 9px;
+    font-size: .94rem;
+    box-shadow: 0 10px 24px rgba(0,0,0,.28);
+  }
+
+  .red-button {
+    background: linear-gradient(180deg, #c82a2a, #9d1717);
+  }
+
+  .gold-button {
+    background: rgba(20,20,20,.88);
+  }
+
+  /* Integrate the truck and badge into the lower hero instead of a separate block. */
+  .mobile-art {
+    position: absolute;
+    z-index: 2;
+    inset: auto 0 0;
+    height: 285px;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .mobile-art::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    pointer-events: none;
+    background:
+      linear-gradient(180deg, #080808 0%, transparent 22%, transparent 76%, #080808 100%),
+      linear-gradient(90deg, rgba(8,8,8,.84) 0%, transparent 42%);
+  }
+
+  .mobile-art .truck {
+    right: -25%;
+    bottom: -6%;
+    width: 139%;
+    height: 112%;
+    opacity: .80;
+    object-position: 57% center;
+    filter: brightness(.66) contrast(1.11) saturate(.90);
+    mask-image: none;
+  }
+
+  .mobile-art .badge {
+    z-index: 5;
+    right: 2%;
+    top: 7px;
+    width: 172px;
+    max-height: 180px;
+    filter: drop-shadow(0 13px 22px rgba(0,0,0,.76));
+  }
+
+  .promise-strip {
+    padding: 15px 0;
+  }
+
+  .promise-strip article {
+    padding: 17px 18px;
+  }
+
+  .motto-band {
+    padding: 15px 12px;
+  }
+
+  .motto-band p {
+    font-size: .73rem;
+    letter-spacing: .10em;
+  }
+
+  .section {
+    padding: 62px 0;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(2.55rem, 12vw, 3.55rem);
+  }
+
+  .service-grid {
+    gap: 13px;
+  }
+
+  .service-grid a {
+    border-width: 1px;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #ecd7aa, #c8a35d);
+  }
+
+  .company-motto {
+    padding: 36px 16px 44px;
+  }
+
+  .company-motto h2 {
+    font-size: 1.22rem;
+    line-height: 1.55;
+  }
+
+  .mobile-actions {
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 -9px 25px rgba(0,0,0,.42);
+  }
+
+  .mobile-actions a {
+    min-height: 64px;
+    font-size: .98rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .mobile-brand strong {
+    font-size: 1.04rem;
+  }
+
+  .mobile-hero {
+    min-height: 610px;
+    padding-inline: 14px;
+  }
+
+  .mobile-copy h1 {
+    font-size: 2.95rem;
+  }
+
+  .mobile-art .badge {
+    width: 150px;
+  }
+}
