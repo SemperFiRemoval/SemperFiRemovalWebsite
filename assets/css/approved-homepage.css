@@ -154,30 +154,25 @@ a { color: inherit; }
 .hero {
   position: relative;
   overflow: hidden;
-  min-height: 690px;
+  min-height: 660px;
   background:
-    linear-gradient(90deg,
-      rgba(28,28,28,.99) 0%,
-      rgba(11,31,58,.94) 44%,
-      rgba(11,31,58,.58) 66%,
-      rgba(28,28,28,.20) 100%
-    ),
-    url("../images/about-truck.webp") 72% center / cover no-repeat;
+    radial-gradient(circle at 74% 42%, rgba(200,163,93,.10), transparent 31%),
+    linear-gradient(90deg, rgba(28,28,28,.99) 0%, rgba(28,28,28,.94) 39%, rgba(28,28,28,.47) 100%),
+    var(--charcoal);
 }
 
 .flag-layer {
   position: absolute;
   inset: 0;
-  opacity: .22;
-  pointer-events: none;
+  opacity: .31;
   background:
-    linear-gradient(90deg, rgba(11,31,58,.35), rgba(28,28,28,.80)),
+    linear-gradient(90deg, rgba(0,0,0,.10), rgba(0,0,0,.74)),
     repeating-linear-gradient(
       0deg,
-      rgba(178,34,34,.68) 0 7.7%,
-      rgba(245,241,232,.14) 7.7% 15.4%
+      rgba(178,34,34,.92) 0 7.7%,
+      rgba(245,241,232,.22) 7.7% 15.4%
     );
-  mask-image: linear-gradient(90deg, #000 0%, rgba(0,0,0,.82) 42%, transparent 76%);
+  mask-image: linear-gradient(90deg, #000 0 56%, transparent 90%);
 }
 
 .flag-layer::before {
@@ -185,13 +180,12 @@ a { color: inherit; }
   position: absolute;
   left: 0;
   top: 0;
-  width: 40%;
-  height: 46%;
+  width: 42%;
+  height: 48%;
   background:
-    radial-gradient(circle, rgba(255,255,255,.44) 0 1.2px, transparent 1.5px);
-  background-size: 27px 24px;
-  background-color: rgba(11,31,58,.90);
-  opacity: .72;
+    radial-gradient(circle, rgba(255,255,255,.54) 0 1.3px, transparent 1.6px);
+  background-size: 25px 22px;
+  background-color: rgba(11,31,58,.94);
 }
 
 .hero-grid {
@@ -282,6 +276,14 @@ a { color: inherit; }
   margin-top: 28px;
 }
 
+
+.button-blue {
+  color: #fff;
+  background: linear-gradient(135deg, #074c9d, #002d72);
+  border-color: #2d7ad0;
+  box-shadow: 0 10px 26px rgba(0,45,114,.32);
+}
+.button-blue:hover { filter: brightness(1.12); }
 .button-row.center { justify-content: center; }
 
 .button {
@@ -315,17 +317,15 @@ a { color: inherit; }
 
 .truck-image {
   position: absolute;
-  right: -5%;
-  bottom: -2%;
-  width: 116%;
+  right: -7%;
+  bottom: 0;
+  width: 118%;
   max-width: none;
-  height: 102%;
+  height: 100%;
   object-fit: cover;
-  object-position: 58% center;
-  opacity: .78;
-  filter: brightness(.76) contrast(1.08) saturate(.95);
-  mix-blend-mode: normal;
-  mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.68) 18%, #000 42%, #000 100%);
+  object-position: 55% center;
+  filter: brightness(.72) contrast(1.08) saturate(.9);
+  mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.78) 19%, #000 40%);
 }
 
 .hero-logo {
@@ -611,7 +611,7 @@ a { color: inherit; }
 
 .locations {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 9px 20px;
   padding: 0;
   list-style: none;
@@ -745,7 +745,7 @@ a { color: inherit; }
   }
 
   .service-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -922,105 +922,8 @@ a { color: inherit; }
   }
 }
 
-
-/* Restored official color treatment */
-body {
-  background:
-    linear-gradient(180deg, #1C1C1C 0%, #0B1F3A 46%, #1C1C1C 100%);
-}
-
-.site-header {
-  background: rgba(28,28,28,.98);
-}
-
-.topbar {
-  background: #0B1F3A;
-}
-
-.hero-copy {
-  padding: 26px 28px 26px 0;
-}
-
-.hero-copy::before {
-  content: "";
-  position: absolute;
-  inset: -18px -22px -18px -28px;
-  z-index: -1;
-  border-radius: 22px;
-  background: linear-gradient(90deg, rgba(28,28,28,.82), rgba(11,31,58,.30), transparent);
-}
-
-.hero-logo {
-  top: 2%;
-  right: 1%;
-  width: min(36vw, 410px);
-}
-
-.trust-section {
-  background: linear-gradient(180deg, #0B1F3A, #071527);
-}
-
-.promise-band,
-.services-section,
-.motto-section,
-.service-area-section {
-  background: #1C1C1C;
-}
-
-.service-card {
-  background:
-    linear-gradient(180deg, #F5E0B0 0%, #C8A35D 100%);
-  border-color: #C8A35D;
-}
-
-.service-card h3,
-.service-card p {
-  color: #1C1C1C;
-}
-
-.process-section {
-  background: #0B1F3A;
-}
-
-.founder-section {
-  background: #F5F1E8;
-}
-
-.final-cta {
-  background:
-    linear-gradient(rgba(11,31,58,.78), rgba(28,28,28,.94)),
-    url("../images/about-truck.webp") 70% center / cover no-repeat;
-}
-
-@media (max-width: 700px) {
-  .hero {
-    background:
-      linear-gradient(180deg,
-        rgba(28,28,28,.97) 0%,
-        rgba(11,31,58,.90) 58%,
-        rgba(28,28,28,.92) 100%
-      ),
-      url("../images/about-truck.webp") 62% center / cover no-repeat;
-  }
-
-  .hero-copy {
-    padding-right: 0;
-  }
-
-  .hero-copy::before {
-    inset: -14px -10px;
-    background: rgba(28,28,28,.48);
-  }
-
-  .truck-image {
-    opacity: .55;
-    width: 145%;
-    right: -30%;
-  }
-
-  .hero-logo {
-    width: 175px;
-    right: 0;
-    top: 4px;
-  }
+@media (max-width: 720px){
+  .mobile-actions{grid-template-columns:repeat(3,1fr)!important;}
+  .mobile-actions a:nth-child(2){background:#111820;color:#fff;}
+  .mobile-actions a:nth-child(3){background:linear-gradient(135deg,#074c9d,#002d72);color:#fff;}
 }
