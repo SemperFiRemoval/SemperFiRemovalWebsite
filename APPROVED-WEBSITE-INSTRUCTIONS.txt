@@ -1,0 +1,41 @@
+SEMPER FI REMOVAL — APPROVED SCROLLABLE WEBSITE
+
+This version is a real, scrollable website based on the approved mockup.
+
+OFFICIAL COLORS
+Charcoal: #1C1C1C
+Navy: #0B1F3A
+Crimson: #B22222
+Antique Gold: #C8A35D
+Cream: #F5F1E8
+White: #FFFFFF
+
+INCLUDED MESSAGING
+Company Motto:
+Show Up. Work Hard. Complete the Mission.
+
+Customer Promise:
+Sergeant's Got Your Six™
+
+FEATURES
+- Scrollable desktop and mobile homepage
+- Fading American flag
+- Excursion and trailer image
+- Circular logo on the right
+- Gold-filled service cards
+- Founder section
+- Three-step process
+- Service areas
+- Strong final call to action
+- Sticky mobile Free Estimate and Call Now buttons
+
+UPLOAD TO GITHUB
+1. Unzip this package.
+2. Upload the CONTENTS to the root of your repository.
+3. Preserve assets/css, assets/js, and assets/images.
+4. Replace matching files.
+5. Commit directly to the main branch.
+6. Wait 2–5 minutes.
+7. Open:
+   https://www.semperfiremovalmd.com/?version=approved-scroll
+8. Press Ctrl + Shift + R.
