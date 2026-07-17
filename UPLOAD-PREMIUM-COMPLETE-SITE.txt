@@ -1,0 +1,53 @@
+SEMPER FI REMOVAL — PREMIUM COMPLETE DRAG-AND-DROP SITE
+
+THIS PACKAGE INCLUDES
+- Approved exact desktop hero artwork
+- Clickable navigation and CTA hotspots on the hero
+- Responsive mobile hero and navigation
+- Full scrollable homepage below the hero
+- Premium trust section
+- Gold service cards
+- Company motto
+- Sergeant's Got Your Six™
+- Founder section
+- Three-step process
+- Final call-to-action
+- Premium footer
+- Estimate form layout patch
+
+OFFICIAL COLORS
+Charcoal      #1C1C1C
+Navy          #0B1F3A
+Crimson       #B22222
+Antique Gold  #C8A35D
+Cream         #F5F1E8
+White         #FFFFFF
+
+UPLOAD TO GITHUB
+1. Unzip this package.
+2. Open the extracted folder.
+3. Select EVERYTHING inside it.
+4. Drag those contents into the ROOT of your GitHub repository.
+5. Preserve the folder structure:
+   assets/css
+   assets/js
+   assets/images
+6. Replace matching files.
+7. Commit directly to the main branch.
+8. Wait 2–5 minutes for GitHub Pages to deploy.
+9. Open:
+   https://www.semperfiremovalmd.com/?premium=complete
+10. Press Ctrl + Shift + R.
+
+ESTIMATE FORM
+This package includes:
+assets/css/estimate-form-fix.css
+
+If your existing estimate.html remains in the repository and is not replaced,
+make sure this line is inside its <head> after the normal stylesheet:
+
+<link rel="stylesheet" href="assets/css/estimate-form-fix.css">
+
+PHONE
+All live links should use:
+(240) 317-4193
