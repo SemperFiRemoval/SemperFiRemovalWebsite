@@ -1,0 +1,27 @@
+SEMPER FI REMOVAL — RESTORED COLOR & TRUCK HERO
+
+This update fixes:
+- The washed-out gray/dotted hero appearance
+- The rectangular truck photo look
+- Missing official colors
+- Weak flag visibility
+- Poor visual blending between the truck, logo, and background
+
+Official colors restored:
+Charcoal #1C1C1C
+Navy #0B1F3A
+Crimson #B22222
+Antique Gold #C8A35D
+Cream #F5F1E8
+White #FFFFFF
+
+UPLOAD
+1. Unzip this package.
+2. Upload the CONTENTS to the root of the GitHub repository.
+3. Preserve assets/css, assets/js, and assets/images.
+4. Replace matching files.
+5. Commit to main.
+6. Wait 2–5 minutes.
+7. Test:
+   https://www.semperfiremovalmd.com/?fix=truck-color
+8. Press Ctrl + Shift + R.
