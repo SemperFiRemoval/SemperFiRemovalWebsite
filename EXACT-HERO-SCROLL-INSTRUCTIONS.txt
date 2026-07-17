@@ -1,0 +1,32 @@
+SEMPER FI REMOVAL — EXACT HERO + SCROLLABLE HOMEPAGE
+
+WHY THIS VERSION IS DIFFERENT
+The approved desktop design is used as the exact hero image. It will no longer
+be reconstructed with CSS, so the colors, truck, trailer, logo, flag, text,
+and spacing will match the approved artwork.
+
+The navigation, estimate buttons, phone buttons, and service boxes remain
+clickable through transparent link areas placed over the image.
+
+Below the hero, the website is fully scrollable and includes:
+- Trust points
+- Sergeant's Got Your Six™
+- Gold service cards
+- Company motto
+- Founder section
+- Three-step process
+- Final call to action
+- Footer
+
+Mobile uses a separate responsive live-text layout.
+
+UPLOAD
+1. Unzip the package.
+2. Upload the CONTENTS to the root of the GitHub repository.
+3. Preserve assets/css, assets/js, and assets/images.
+4. Replace matching files.
+5. Commit directly to main.
+6. Wait 2–5 minutes.
+7. Open:
+   https://www.semperfiremovalmd.com/?hero=exact-scroll
+8. Press Ctrl + Shift + R.

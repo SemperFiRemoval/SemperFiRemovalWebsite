@@ -1,0 +1,569 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700;800&display=swap");
+
+:root {
+  --charcoal: #1C1C1C;
+  --navy: #0B1F3A;
+  --crimson: #B22222;
+  --gold: #C8A35D;
+  --cream: #F5F1E8;
+  --white: #FFFFFF;
+  --max: 1180px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--charcoal);
+  color: var(--white);
+  font-family: "Montserrat", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+img { display: block; max-width: 100%; }
+
+a { color: inherit; }
+
+.container {
+  width: min(calc(100% - 32px), var(--max));
+  margin-inline: auto;
+}
+
+.skip-link {
+  position: fixed;
+  top: -100px;
+  left: 12px;
+  z-index: 9999;
+  padding: 10px 14px;
+  background: var(--gold);
+  color: var(--charcoal);
+  font-weight: 800;
+}
+
+.skip-link:focus { top: 12px; }
+
+/* Exact approved desktop image */
+.desktop-hero {
+  position: relative;
+  width: min(100%, 1536px);
+  margin: 0 auto;
+  aspect-ratio: 3 / 2;
+  background: #050505;
+}
+
+.desktop-hero > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.hotspot {
+  position: absolute;
+  z-index: 4;
+  display: block;
+  border-radius: 8px;
+}
+
+.hotspot:focus-visible {
+  outline: 3px solid var(--white);
+  background: rgba(200,163,93,.15);
+}
+
+.home          { left: 39.4%; top: 7.6%;  width: 6.1%;  height: 5.4%; }
+.services      { left: 46.8%; top: 7.6%;  width: 8.4%;  height: 5.4%; }
+.pricing       { left: 56.2%; top: 7.6%;  width: 6.3%;  height: 5.4%; }
+.areas         { left: 63.4%; top: 7.6%;  width: 10.4%; height: 5.4%; }
+.about         { left: 74.4%; top: 7.6%;  width: 6.1%;  height: 5.4%; }
+.estimate-top  { left: 83.0%; top: 6.8%;  width: 14.7%; height: 5.9%; }
+.phone-top     { left: 73.0%; top: 0%;    width: 17.3%; height: 4.7%; }
+
+.estimate-main { left: 3.7%;  top: 57.2%; width: 18.4%; height: 6.5%; }
+.call-main     { left: 23.0%; top: 57.2%; width: 18.3%; height: 6.5%; }
+
+.furniture     { left: 3.6%;  top: 80.4%; width: 23.0%; height: 13.2%; }
+.appliances    { left: 27.1%; top: 80.4%; width: 23.1%; height: 13.2%; }
+.garage        { left: 50.6%; top: 80.4%; width: 22.6%; height: 13.2%; }
+.estate        { left: 73.7%; top: 80.4%; width: 22.6%; height: 13.2%; }
+
+.mobile-site { display: none; }
+
+.promise-strip {
+  padding: 24px 0;
+  background: var(--navy);
+  border-block: 1px solid rgba(200,163,93,.42);
+}
+
+.promise-strip .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid rgba(200,163,93,.42);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.promise-strip article {
+  padding: 25px;
+  border-right: 1px solid rgba(200,163,93,.25);
+}
+
+.promise-strip article:last-child { border-right: 0; }
+
+.promise-strip strong,
+.promise-strip span { display: block; }
+
+.promise-strip strong { color: var(--white); }
+
+.promise-strip span {
+  margin-top: 5px;
+  color: var(--cream);
+  font-size: .86rem;
+}
+
+.motto-band {
+  padding: 18px 16px;
+  background: var(--charcoal);
+  text-align: center;
+}
+
+.motto-band p {
+  margin: 0;
+  color: var(--gold);
+  font-weight: 800;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+
+.section { padding: 86px 0; }
+
+.section-heading {
+  max-width: 760px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  color: var(--gold);
+  font-weight: 800;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.section-heading h2,
+.founder-section h2,
+.final-cta h2 {
+  margin: 0;
+  font-family: "Bebas Neue", Impact, sans-serif;
+  font-size: clamp(2.9rem, 5vw, 4.8rem);
+  line-height: .96;
+}
+
+.service-section { background: var(--charcoal); }
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.service-grid a {
+  min-height: 220px;
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 16px;
+  align-items: center;
+  padding: 26px;
+  border: 2px solid var(--gold);
+  border-radius: 12px;
+  background: linear-gradient(180deg, #ecd49e, var(--gold));
+  color: var(--charcoal);
+  text-decoration: none;
+  box-shadow: inset 0 0 0 4px rgba(255,255,255,.13), 0 16px 30px rgba(0,0,0,.28);
+}
+
+.service-grid a > span { font-size: 2.6rem; }
+
+.service-grid h3 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.service-grid p {
+  margin: 8px 0 0;
+  color: #292929;
+  font-size: .88rem;
+}
+
+.company-motto {
+  padding: 42px 0 58px;
+  background: var(--charcoal);
+  text-align: center;
+}
+
+.company-motto h2 {
+  margin: 0;
+  color: var(--white);
+  font-size: clamp(1.5rem, 3vw, 2.35rem);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+
+.company-motto h2 strong,
+.company-motto p strong { color: var(--gold); }
+
+.company-motto p {
+  margin: 8px 0 0;
+  color: var(--cream);
+  text-transform: uppercase;
+  letter-spacing: .12em;
+}
+
+.founder-section {
+  background: var(--cream);
+  color: var(--charcoal);
+}
+
+.founder-grid {
+  display: grid;
+  grid-template-columns: .95fr 1.05fr;
+  gap: 52px;
+  align-items: center;
+}
+
+.founder-image {
+  overflow: hidden;
+  border-radius: 18px;
+  box-shadow: 0 18px 42px rgba(0,0,0,.2);
+}
+
+.founder-image img {
+  width: 100%;
+  min-height: 430px;
+  object-fit: cover;
+}
+
+.founder-section .eyebrow { color: var(--crimson); }
+
+.text-link {
+  color: var(--crimson);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.process-section { background: var(--navy); }
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.process-grid article {
+  padding: 28px;
+  border: 1px solid rgba(200,163,93,.42);
+  border-radius: 14px;
+  background: rgba(28,28,28,.55);
+  text-align: center;
+}
+
+.process-grid article > span {
+  display: grid;
+  width: 46px;
+  height: 46px;
+  margin: 0 auto 15px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--crimson);
+  font-weight: 900;
+}
+
+.process-grid h3 { margin: 0 0 8px; }
+
+.process-grid p {
+  margin: 0;
+  color: var(--cream);
+}
+
+.final-cta {
+  padding: 88px 0;
+  background: linear-gradient(rgba(11,31,58,.85), rgba(28,28,28,.95)), url("../images/about-truck.webp") 70% center / cover no-repeat;
+  text-align: center;
+}
+
+.final-cta > .container > p:not(.eyebrow) { color: var(--cream); }
+
+.cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 26px;
+}
+
+.red-button,
+.gold-button {
+  min-height: 54px;
+  display: inline-grid;
+  place-items: center;
+  padding: 13px 22px;
+  border-radius: 8px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.red-button {
+  background: var(--crimson);
+  color: var(--white);
+}
+
+.gold-button {
+  border: 2px solid var(--gold);
+  background: var(--charcoal);
+  color: var(--gold);
+}
+
+footer {
+  padding: 62px 0 30px;
+  background: var(--navy);
+  border-top: 4px solid var(--gold);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr .7fr .9fr;
+  gap: 42px;
+}
+
+footer h2 {
+  font-family: "Bebas Neue", Impact, sans-serif;
+  font-size: 2.2rem;
+}
+
+footer h3 { color: var(--gold); }
+
+footer a,
+footer p {
+  display: block;
+  margin: 0 0 8px;
+  color: var(--cream);
+  text-decoration: none;
+}
+
+.mobile-actions { display: none; }
+
+@media (max-width: 899px) {
+  body { padding-bottom: 66px; }
+
+  .desktop-hero { display: none; }
+  .mobile-site { display: block; }
+
+  .mobile-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    background: rgba(28,28,28,.98);
+    border-bottom: 1px solid rgba(200,163,93,.45);
+  }
+
+  .mobile-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--white);
+    text-decoration: none;
+  }
+
+  .mobile-brand img {
+    width: 52px;
+    height: 52px;
+    object-fit: contain;
+  }
+
+  .mobile-brand span { display: grid; }
+
+  .mobile-brand strong {
+    font-family: "Bebas Neue", Impact, sans-serif;
+    color: var(--gold);
+    font-size: 1.4rem;
+  }
+
+  .mobile-brand small {
+    color: var(--cream);
+    font-size: .6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+  }
+
+  .menu-toggle {
+    width: 44px;
+    height: 44px;
+    border: 1px solid var(--gold);
+    border-radius: 8px;
+    background: transparent;
+    color: var(--white);
+    font-size: 1.2rem;
+  }
+
+  #mobile-nav {
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    right: 10px;
+    display: none;
+    padding: 12px;
+    border: 1px solid rgba(200,163,93,.45);
+    background: var(--charcoal);
+  }
+
+  #mobile-nav.open { display: grid; }
+
+  #mobile-nav a {
+    padding: 12px;
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  .mobile-hero {
+    position: relative;
+    overflow: hidden;
+    min-height: 680px;
+    padding: 48px 18px 28px;
+    background: var(--charcoal);
+  }
+
+  .mobile-flag {
+    position: absolute;
+    inset: 0;
+    opacity: .24;
+    background:
+      linear-gradient(90deg, rgba(0,0,0,.1), rgba(0,0,0,.76)),
+      repeating-linear-gradient(0deg, rgba(178,34,34,.85) 0 7.7%, rgba(245,241,232,.18) 7.7% 15.4%);
+    mask-image: linear-gradient(#000 0 70%, transparent 100%);
+  }
+
+  .mobile-flag::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 48%;
+    height: 42%;
+    background: radial-gradient(circle, rgba(255,255,255,.5) 0 1.3px, transparent 1.6px);
+    background-size: 25px 22px;
+    background-color: rgba(11,31,58,.92);
+  }
+
+  .mobile-copy {
+    position: relative;
+    z-index: 3;
+  }
+
+  .mobile-copy h1 {
+    margin: 0;
+    font-family: "Bebas Neue", Impact, sans-serif;
+    font-size: clamp(3.5rem, 18vw, 5.6rem);
+    line-height: .88;
+  }
+
+  .mobile-copy h1 span {
+    display: block;
+    color: var(--gold);
+  }
+
+  .mission {
+    margin-top: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  .mission strong { color: var(--gold); }
+
+  .mobile-buttons {
+    display: grid;
+    gap: 12px;
+    margin-top: 22px;
+  }
+
+  .mobile-art {
+    position: relative;
+    z-index: 2;
+    height: 280px;
+    margin-top: 14px;
+  }
+
+  .mobile-art .truck {
+    position: absolute;
+    right: -90px;
+    bottom: 0;
+    width: 145%;
+    max-width: none;
+    height: 100%;
+    object-fit: cover;
+    object-position: 55% center;
+    filter: brightness(.62) contrast(1.08);
+    mask-image: linear-gradient(90deg, transparent 0%, #000 28%);
+  }
+
+  .mobile-art .badge {
+    position: absolute;
+    right: 0;
+    top: -10px;
+    width: 195px;
+    max-height: 205px;
+    object-fit: contain;
+  }
+
+  .promise-strip .container,
+  .service-grid,
+  .founder-grid,
+  .process-grid,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .promise-strip article {
+    border-right: 0;
+    border-bottom: 1px solid rgba(200,163,93,.25);
+  }
+
+  .service-grid a {
+    min-height: auto;
+    grid-template-columns: 58px 1fr;
+    padding: 20px;
+  }
+
+  .founder-image img { min-height: 260px; }
+
+  .process-grid article {
+    text-align: left;
+  }
+
+  .mobile-actions {
+    position: fixed;
+    inset: auto 0 0;
+    z-index: 1200;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .mobile-actions a {
+    min-height: 66px;
+    display: grid;
+    place-items: center;
+    color: var(--white);
+    font-weight: 900;
+    text-decoration: none;
+  }
+
+  .mobile-actions a:first-child { background: var(--crimson); }
+  .mobile-actions a:last-child { background: var(--navy); color: var(--gold); }
+}
