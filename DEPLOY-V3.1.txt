@@ -1,0 +1,21 @@
+SEMPER FI REMOVAL WEBSITE V3.1 — DESKTOP FIX
+
+WHY THE OLD DESKTOP APPEARED
+The screenshot shows the previous responsive homepage, not the V3 desktop-concept index.
+V3.1 changes the CSS and image filenames and includes inline critical layout rules so stale
+CSS cannot display the old desktop layout.
+
+DEPLOY EXACTLY THIS WAY
+1. In GitHub, delete the existing website files and the existing assets folder.
+2. Commit that deletion.
+3. Upload the CONTENTS of this ZIP to the repository root.
+4. Commit the upload.
+5. Wait for the GitHub Pages deployment to complete.
+6. Open:
+   https://semperfiremovalmd.com/version.html
+   It must say "Semper Fi Removal Website V3.1".
+7. Then open the homepage and press Ctrl + Shift + R.
+
+EXPECTED RESULT
+- Desktop/tablet wider than 900px: exact approved homepage image.
+- Mobile 900px and below: the responsive mobile homepage you liked.
