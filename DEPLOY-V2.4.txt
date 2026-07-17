@@ -1,0 +1,9 @@
+SEMPER FI REMOVAL WEBSITE V2.4 — PIXEL MATCH
+
+This homepage uses the exact approved design as the visual layout, with clickable navigation and contact hotspots layered over it.
+
+1. Delete old repository files.
+2. Upload the CONTENTS of this ZIP to the repository root.
+3. Confirm index.html, CNAME, and assets/ are at the root.
+4. Wait for GitHub Pages deployment.
+5. Hard refresh with Ctrl+Shift+R.
