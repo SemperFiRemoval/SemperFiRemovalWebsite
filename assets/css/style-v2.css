@@ -208,3 +208,293 @@ body {
   background: var(--marine-navy);
   border-top: 4px solid var(--marine-gold);
 }
+
+
+/* ==========================================================
+   MOBILE-FRIENDLY HOMEPAGE SIMPLIFICATION
+   ========================================================== */
+
+.trust-grid-simple {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.service-grid-simple {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 980px;
+  margin-inline: auto;
+}
+
+.compact-button {
+  min-height: 46px;
+  padding: 10px 22px;
+}
+
+.process-section {
+  background: linear-gradient(180deg, #071f3f, #06172f);
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.process-grid article {
+  padding: 28px;
+  border: 1px solid rgba(214, 181, 74, .42);
+  border-radius: 18px;
+  background: rgba(6, 23, 47, .82);
+  text-align: center;
+}
+
+.process-grid article > span {
+  display: grid;
+  width: 46px;
+  height: 46px;
+  margin: 0 auto 16px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--red-bright);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.process-grid h3 {
+  margin: 0 0 8px;
+  color: #fff;
+}
+
+.process-grid p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.service-area-simple {
+  max-width: 920px;
+}
+
+.location-list-centered {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.services-home .card {
+  min-height: 220px;
+}
+
+@media (max-width: 960px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+
+  .hero-badge {
+    max-width: 340px;
+    padding: 16px;
+  }
+
+  .hero-badge img {
+    max-height: 260px;
+    object-fit: contain;
+  }
+
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .topbar-inner span {
+    display: none;
+  }
+
+  .topbar-inner {
+    min-height: 38px;
+  }
+
+  .nav-wrap {
+    min-height: 66px;
+  }
+
+  .brand img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .brand-title {
+    font-size: 1.15rem;
+  }
+
+  .brand-sub {
+    display: none;
+  }
+
+  .menu-toggle {
+    padding: 9px 12px;
+    font-size: .85rem;
+  }
+
+  .hero {
+    min-height: auto;
+    background-position: 61% center;
+  }
+
+  .hero-grid {
+    padding-block: 48px 70px;
+  }
+
+  .hero h1 {
+    font-size: clamp(3rem, 17vw, 4.4rem);
+    line-height: .94;
+  }
+
+  .hero-summary {
+    margin: 20px 0 16px;
+    font-size: .94rem;
+    line-height: 1.55;
+  }
+
+  .mission-statement {
+    gap: 4px 10px;
+    margin: 18px 0;
+    font-size: .78rem;
+  }
+
+  .customer-promise {
+    margin-top: 18px;
+    font-size: .82rem;
+    text-align: center;
+  }
+
+  .hero-badge {
+    display: none;
+  }
+
+  .trust-grid-simple {
+    grid-template-columns: 1fr;
+  }
+
+  .trust-grid-simple div {
+    padding: 17px 14px;
+  }
+
+  .trust-grid-simple span {
+    font-size: .78rem;
+  }
+
+  .service-grid-simple {
+    grid-template-columns: 1fr;
+  }
+
+  .services-home .card {
+    min-height: auto;
+    display: grid;
+    grid-template-columns: 52px 1fr;
+    gap: 2px 15px;
+    padding: 20px;
+  }
+
+  .services-home .card .icon {
+    grid-row: 1 / span 2;
+    align-self: center;
+    margin: 0;
+    font-size: 1.8rem;
+  }
+
+  .services-home .card h3,
+  .services-home .card p {
+    margin: 0;
+  }
+
+  .services-home .card p {
+    margin-top: 5px;
+    font-size: .85rem;
+  }
+
+  .standard-grid {
+    gap: 30px;
+  }
+
+  .logo-panel {
+    max-width: 250px;
+    margin-inline: auto;
+    padding: 14px;
+  }
+
+  .promise-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .promise-grid article {
+    padding: 16px;
+  }
+
+  .founder-grid {
+    gap: 28px;
+  }
+
+  .founder-photo img {
+    min-height: 250px;
+  }
+
+  .location-list-centered {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    font-size: .86rem;
+  }
+
+  .process-grid article {
+    display: grid;
+    grid-template-columns: 42px 1fr;
+    gap: 3px 14px;
+    padding: 18px;
+    text-align: left;
+  }
+
+  .process-grid article > span {
+    grid-row: 1 / span 2;
+    width: 38px;
+    height: 38px;
+    margin: 0;
+  }
+
+  .process-grid h3,
+  .process-grid p {
+    margin: 0;
+  }
+
+  .final-cta {
+    padding-block: 66px;
+  }
+
+  .footer {
+    padding-top: 50px;
+  }
+
+  .footer-brand {
+    grid-template-columns: 68px 1fr;
+  }
+
+  .footer-brand img {
+    width: 68px;
+  }
+
+  .footer-brand p {
+    font-size: .84rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .brand-copy {
+    max-width: 175px;
+  }
+
+  .hero h1 {
+    font-size: 3.15rem;
+  }
+
+  .location-list-centered {
+    grid-template-columns: 1fr;
+  }
+}

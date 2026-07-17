@@ -1,25 +1,9 @@
-SEMPER FI REMOVAL — MARINE THEME
-
-This package uses the supplied Semper Fi advertising graphic as the visual template.
-
-Palette:
-Deep Marine Navy #06162B
-Command Navy #0A2A52
-Marine Gold #D4AF37
-Highlight Gold #F0D36A
-Command Red #C0192D
-White #FFFFFF
-
-The supplied artwork is included at:
-assets/images/brand-template.png
-
-It is also used for the website sharing preview at:
-assets/images/social-logo.jpg
-
-Upload the CONTENTS of this package to the root of the GitHub repository.
-Keep all assets folders intact.
-
-After deployment, open:
-https://www.semperfiremovalmd.com/?theme=marine
-
-Then hard-refresh with Ctrl+Shift+R.
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.semperfiremovalmd.com/</loc>
+  </url>
+  <url>
+    <loc>https://www.semperfiremovalmd.com/estimate.html</loc>
+  </url>
+</urlset>

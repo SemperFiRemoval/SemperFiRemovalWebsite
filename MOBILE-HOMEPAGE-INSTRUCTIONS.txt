@@ -1,1 +1,34 @@
-www.semperfiremovalmd.com
+SEMPER FI REMOVAL — MOBILE-FRIENDLY HOMEPAGE UPDATE
+
+WHAT CHANGED
+- Removed the comparison table from the homepage.
+- Removed placeholder review and gallery sections.
+- Reduced the service cards from six to four main categories.
+- Reduced the trust strip to three clear benefits.
+- Added a simple three-step customer process.
+- Simplified the service-area section.
+- Hid the large hero badge on small phones.
+- Converted service and process cards into compact mobile rows.
+- Preserved the sticky Free Estimate and Call Now buttons.
+
+UPLOAD TO GITHUB
+1. Unzip this package.
+2. Upload the CONTENTS to the root of the repository.
+3. Preserve the assets/css, assets/js, and assets/images folder structure.
+4. Replace files when GitHub reports matching names.
+5. Commit directly to the main branch.
+6. Wait 2–5 minutes for GitHub Pages to redeploy.
+
+TEST
+Desktop:
+https://www.semperfiremovalmd.com/?layout=simple
+
+Mobile:
+Open the same URL on your phone, or use Chrome DevTools mobile preview.
+
+Hard refresh:
+Ctrl + Shift + R
+
+IMPORTANT
+The package keeps the confirmed business phone:
+(240) 317-4193
