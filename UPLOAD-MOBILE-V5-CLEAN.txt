@@ -1,0 +1,27 @@
+SEMPER FI REMOVAL — MOBILE V5 CLEAN
+
+WHY THE LAST MOBILE VERSION FAILED
+It used a tall composite screenshot, which created cropped duplicate sections
+and awkward scaling on iPhone screens.
+
+THIS VERSION
+- Keeps the desktop Cinematic V4 hero unchanged
+- Replaces only the mobile hero
+- Uses live responsive text
+- Uses a vibrant flag background
+- Uses one clean Excursion/trailer scene
+- Uses one circular logo
+- Keeps both buttons fully clickable
+- Removes duplicate image fragments
+- Transitions cleanly into the scrollable homepage
+
+UPLOAD
+1. Unzip this package.
+2. Upload EVERYTHING inside to the repository root.
+3. Preserve assets/css, assets/js, and assets/images.
+4. Replace matching files.
+5. Commit directly to main.
+6. Wait 2–5 minutes.
+7. Close the old Safari tab.
+8. Open:
+   https://www.semperfiremovalmd.com/?mobile=v5clean

@@ -16,3 +16,241 @@
 .final-cta{text-align:center;padding:88px 0;background:linear-gradient(rgba(11,31,58,.78),rgba(18,18,18,.94)),url("../images/about-truck.webp") 65% center/cover;border-block:3px solid var(--gold)}.final-cta p:not(.eyebrow){color:#fff3da}.cta-row{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:26px}.red-btn,.gold-btn{min-height:54px;display:inline-grid;place-items:center;padding:13px 22px;border-radius:8px;font-weight:900;text-decoration:none}.red-btn{background:linear-gradient(#df3b3b,#9b1515);border:1px solid #f05555}.gold-btn{background:#171717;border:2px solid #e1bb67;color:#f2ce7b}
 footer{padding:62px 0 30px;background:#07172d;border-top:4px solid var(--gold)}.footer-grid{display:grid;grid-template-columns:1.5fr .7fr .9fr;gap:42px}footer h3{color:#dfb75f}footer a,footer p{display:block;margin:0 0 8px;color:#f6eddd;text-decoration:none}.mobile-bar{display:none}
 @media(max-width:899px){body{padding-bottom:64px}.desktop-hero{display:none}.mobile-header{position:sticky;top:0;z-index:1000;min-height:68px;display:flex;align-items:center;justify-content:space-between;padding:8px 12px;background:linear-gradient(#222,#141414);border-bottom:2px solid #e1bb67}.mobile-brand{display:flex;align-items:center;gap:9px;text-decoration:none}.mobile-brand img{width:47px;height:47px;object-fit:contain}.mobile-brand span{display:grid}.mobile-brand strong{font-family:Bebas Neue,Impact,sans-serif;color:#e5bd69;font-size:1.2rem}.mobile-brand small{color:#fff4db;font-size:.52rem;font-weight:800;letter-spacing:.11em;text-transform:uppercase}.menu-toggle{width:43px;height:43px;border:2px solid #e1bb67;border-radius:10px;background:linear-gradient(#174579,#0c294f);color:#fff;font-size:1.15rem}.mobile-header nav{position:absolute;top:100%;left:10px;right:10px;display:none;padding:12px;background:#171717;border:1px solid rgba(200,163,93,.55)}.mobile-header nav.open{display:grid}.mobile-header nav a{padding:12px;color:#fff;text-decoration:none;font-weight:800}.mobile-hero-canvas{position:relative;display:block;width:100%;background:#050505}.mobile-hero-canvas>img{width:100%;height:auto}.mobile-estimate,.mobile-call{position:absolute;z-index:3;left:4%;right:4%;display:block;border-radius:9px}.mobile-estimate{top:48.5%;height:7.5%}.mobile-call{top:57.4%;height:7.5%}.trust-grid,.steps,.footer-grid{grid-template-columns:1fr}.trust-grid article{border-right:0;border-bottom:1px solid rgba(200,163,93,.25)}.service-grid{grid-template-columns:1fr}.service-grid a{min-height:auto;grid-template-columns:56px 1fr;padding:20px}.founder-grid,.area-grid{grid-template-columns:1fr}.section{padding:64px 0}.founder-photo img{min-height:260px}.area-section ul{grid-template-columns:1fr}.mobile-bar{position:fixed;inset:auto 0 0;z-index:1200;display:grid;grid-template-columns:1fr 1fr;box-shadow:0 -9px 25px rgba(0,0,0,.42)}.mobile-bar a{display:grid;place-items:center;min-height:64px;text-decoration:none;font-weight:900}.mobile-bar a:first-child{background:linear-gradient(#e13b3b,#a51616)}.mobile-bar a:last-child{background:linear-gradient(#17477e,#0b2a53);color:#f0cb72}}
+
+
+/* ==========================================================
+   MOBILE V5 — CLEAN RESPONSIVE HERO
+   Replaces the cropped composite-image mobile layout.
+   ========================================================== */
+
+.mobile-hero-v5 {
+  display: none;
+}
+
+@media (max-width: 899px) {
+  .mobile-hero-canvas {
+    display: none !important;
+  }
+
+  .mobile-hero-v5 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    min-height: 760px;
+    padding: 42px 16px 330px;
+    background:
+      radial-gradient(circle at 78% 76%, rgba(226,191,112,.20), transparent 31%),
+      linear-gradient(180deg, #111111 0%, #111111 52%, #071A33 100%);
+  }
+
+  .mobile-v5-flag {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    opacity: .46;
+    pointer-events: none;
+    background:
+      linear-gradient(90deg, rgba(7,26,51,.30), rgba(0,0,0,.58)),
+      repeating-linear-gradient(
+        0deg,
+        rgba(196,38,38,.92) 0 7.7%,
+        rgba(245,241,232,.30) 7.7% 15.4%
+      );
+    mask-image: linear-gradient(
+      180deg,
+      #000 0%,
+      rgba(0,0,0,.92) 46%,
+      rgba(0,0,0,.28) 72%,
+      transparent 86%
+    );
+  }
+
+  .mobile-v5-flag::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 47%;
+    height: 36%;
+    background:
+      radial-gradient(circle, rgba(255,255,255,.90) 0 1.1px, transparent 1.35px);
+    background-size: 25px 22px;
+    background-color: #0B2B52;
+    opacity: .80;
+  }
+
+  .mobile-v5-copy {
+    position: relative;
+    z-index: 4;
+    max-width: 520px;
+  }
+
+  .mobile-v5-eyebrow {
+    margin: 0 0 12px;
+    color: #E2BF70;
+    font-size: .75rem;
+    font-weight: 900;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    text-shadow: 0 2px 7px rgba(0,0,0,.75);
+  }
+
+  .mobile-v5-copy h1 {
+    margin: 0;
+    font-family: "Bebas Neue", Impact, sans-serif;
+    font-size: clamp(3.35rem, 15vw, 4.45rem);
+    line-height: .88;
+    letter-spacing: .004em;
+    color: #FFFFFF;
+    text-shadow:
+      0 3px 0 rgba(0,0,0,.72),
+      0 9px 19px rgba(0,0,0,.44);
+  }
+
+  .mobile-v5-copy h1 span {
+    display: block;
+    margin-top: 7px;
+    color: #E2BF70;
+  }
+
+  .mobile-v5-divider {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 10px;
+    align-items: center;
+    margin: 19px 0 16px;
+  }
+
+  .mobile-v5-divider span {
+    height: 2px;
+    background: #D62E2E;
+  }
+
+  .mobile-v5-divider b {
+    color: #E2BF70;
+    font-size: .72rem;
+    letter-spacing: .25em;
+  }
+
+  .mobile-v5-mission {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: .80rem;
+    font-weight: 900;
+    line-height: 1.55;
+    text-transform: uppercase;
+    text-shadow: 0 2px 7px rgba(0,0,0,.72);
+  }
+
+  .mobile-v5-mission strong {
+    color: #E2BF70;
+  }
+
+  .mobile-v5-summary {
+    margin: 15px 0 0;
+    color: #FFF8E8;
+    font-size: .92rem;
+    line-height: 1.58;
+  }
+
+  .mobile-v5-buttons {
+    position: relative;
+    z-index: 6;
+    display: grid;
+    gap: 11px;
+    margin-top: 22px;
+  }
+
+  .mobile-v5-buttons a {
+    min-height: 54px;
+    display: grid;
+    place-items: center;
+    border-radius: 9px;
+    font-size: .96rem;
+    font-weight: 900;
+    text-decoration: none;
+    box-shadow: 0 10px 24px rgba(0,0,0,.34);
+  }
+
+  .mobile-v5-red {
+    border: 1px solid #F05C5C;
+    background: linear-gradient(180deg, #E43B3B, #B22222 56%, #941717);
+    color: #FFFFFF;
+  }
+
+  .mobile-v5-gold {
+    border: 2px solid #E2BF70;
+    background: linear-gradient(180deg, #252525, #111111);
+    color: #F4D789;
+  }
+
+  .mobile-v5-scene {
+    position: absolute;
+    z-index: 2;
+    inset: auto 0 0;
+    height: 330px;
+    overflow: hidden;
+    background:
+      radial-gradient(circle at 76% 35%, rgba(226,191,112,.18), transparent 29%),
+      linear-gradient(180deg, #0B1F3A, #080808);
+    border-top: 1px solid rgba(226,191,112,.46);
+  }
+
+  .mobile-v5-scene::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    pointer-events: none;
+    background:
+      linear-gradient(180deg, rgba(8,8,8,.92) 0%, transparent 14%, transparent 78%, rgba(8,8,8,.90) 100%),
+      linear-gradient(90deg, rgba(7,26,51,.35), transparent 44%);
+  }
+
+  .mobile-v5-truck {
+    position: absolute;
+    right: -18%;
+    bottom: -5%;
+    width: 135%;
+    max-width: none;
+    height: 112%;
+    object-fit: cover;
+    object-position: 56% center;
+    opacity: .96;
+    filter: brightness(.88) contrast(1.12) saturate(1.15);
+  }
+
+  .mobile-v5-logo {
+    position: absolute;
+    z-index: 7;
+    right: 3%;
+    top: 13px;
+    width: 180px;
+    max-height: 190px;
+    object-fit: contain;
+    filter:
+      saturate(1.14)
+      contrast(1.05)
+      drop-shadow(0 14px 23px rgba(0,0,0,.76));
+  }
+}
+
+@media (max-width: 390px) {
+  .mobile-hero-v5 {
+    min-height: 735px;
+    padding-inline: 14px;
+    padding-bottom: 315px;
+  }
+
+  .mobile-v5-copy h1 {
+    font-size: 3.1rem;
+  }
+
+  .mobile-v5-scene {
+    height: 315px;
+  }
+
+  .mobile-v5-logo {
+    width: 157px;
+  }
+}

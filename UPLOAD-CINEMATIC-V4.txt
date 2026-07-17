@@ -1,0 +1,27 @@
+SEMPER FI REMOVAL — CINEMATIC V4
+
+This version stops rebuilding the hero with flat CSS layers.
+
+DESKTOP
+- Uses the strongest approved premium artwork exactly
+- Richer color and contrast
+- Clickable navigation, phone, estimate, and service hotspots
+- Fully scrollable premium sections below
+
+MOBILE
+- Uses a dedicated vertical composition from the same approved design
+- More vibrant flag, gold, crimson, and navy
+- Integrated Excursion, trailer, and circular logo
+- Clickable estimate and phone areas
+- Shorter, cleaner transition into the page
+
+UPLOAD
+1. Unzip the package.
+2. Upload EVERYTHING inside to the repository root.
+3. Preserve assets/css, assets/js, and assets/images.
+4. Replace matching files.
+5. Commit to main.
+6. Wait 2–5 minutes.
+7. Test:
+   https://www.semperfiremovalmd.com/?v4=cinematic
+8. Close old Safari tabs before testing mobile.
