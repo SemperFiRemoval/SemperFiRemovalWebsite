@@ -1,0 +1,10 @@
+V2.3 CLEAN DEPLOYMENT
+
+This package fixes the nested screenshot and malformed logo problems.
+
+1. Delete the old repository files except any GitHub-specific files you intentionally keep.
+2. Upload the CONTENTS of this ZIP to the repository root.
+3. Confirm index.html and CNAME are at the root.
+4. Wait for GitHub Pages deployment.
+5. Hard refresh with Ctrl+Shift+R.
+6. Do not reuse excursion-trailer-hero.jpg or bulldog-silver.png from V2.2.
