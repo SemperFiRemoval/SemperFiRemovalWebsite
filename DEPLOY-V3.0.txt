@@ -1,0 +1,27 @@
+SEMPER FI REMOVAL WEBSITE V3.0
+
+Desktop:
+- Uses the approved homepage design exactly, with clickable navigation, call, text, estimate, and service-card hotspots.
+
+Mobile:
+- Uses a separate responsive, naturally scrollable homepage.
+- Hamburger navigation.
+- Fixed Estimate / Call / Text bar.
+- Large mobile buttons and readable sections.
+
+Supporting pages:
+- Services
+- Pricing
+- Service Areas
+- Gallery
+- About
+- Reviews
+- Contact
+- Free Estimate
+
+DEPLOYMENT:
+1. Delete the old website files from the GitHub repository.
+2. Upload the CONTENTS of this ZIP directly to the repository root.
+3. Confirm index.html, CNAME, assets/, robots.txt, and sitemap.xml are at the root.
+4. Wait for GitHub Pages deployment.
+5. Hard refresh with Ctrl + Shift + R.
