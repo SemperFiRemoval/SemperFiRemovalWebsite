@@ -1,4 +1,227 @@
-User-agent: *
-Allow: /
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Semper Fi Removal | Veteran-Owned Junk Removal in Southern Maryland</title>
+  <meta name="description" content="Veteran-owned junk removal, furniture and appliance removal, garage and estate cleanouts, yard debris removal, and property cleanouts serving Southern Maryland.">
+  <meta name="theme-color" content="#06162b">
+  <link rel="canonical" href="https://www.semperfiremovalmd.com/">
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="assets/css/style-v2.css">
 
-Sitemap: https://www.semperfiremovalmd.com/sitemap.xml
+  <meta property="og:title" content="Semper Fi Removal">
+  <meta property="og:description" content="Veteran-Owned Junk Removal Serving Southern Maryland. Free estimates and dependable service.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.semperfiremovalmd.com/">
+  <meta property="og:image" content="https://www.semperfiremovalmd.com/assets/images/social-logo.jpg">
+  <meta property="og:image:secure_url" content="https://www.semperfiremovalmd.com/assets/images/social-logo.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1717">
+  <meta property="og:image:height" content="969">
+  <meta property="og:image:alt" content="Semper Fi Removal veteran-owned junk removal serving Southern Maryland">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Semper Fi Removal">
+  <meta name="twitter:description" content="Veteran-Owned Junk Removal Serving Southern Maryland.">
+  <meta name="twitter:image" content="https://www.semperfiremovalmd.com/assets/images/social-logo.jpg">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Semper Fi Removal",
+    "url": "https://www.semperfiremovalmd.com/",
+    "telephone": "+1-240-317-4193",
+    "email": "info@semperfiremovalmd.com",
+    "image": "https://www.semperfiremovalmd.com/assets/images/social-logo.jpg",
+    "description": "Veteran-owned junk removal and property cleanout service serving Southern Maryland.",
+    "areaServed": ["St. Mary's County, Maryland", "Calvert County, Maryland", "Charles County, Maryland", "Southern Maryland"]
+  }
+  </script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <span>★ Veteran-Owned Junk Removal • Serving Southern Maryland</span>
+    <a href="tel:12403174193">Call/Text <strong>(240) 317-4193</strong></a>
+  </div>
+</div>
+
+<header class="site-header" id="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="Semper Fi Removal home">
+      <img src="assets/images/logo.png" alt="Semper Fi Removal logo">
+      <span class="brand-copy">
+        <span class="brand-title">Semper Fi <strong>Removal</strong></span>
+        <span class="brand-sub">The Sergeant Standard™</span>
+      </span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span aria-hidden="true">☰</span><span>Menu</span></button>
+    <nav class="nav" id="primary-navigation" aria-label="Primary navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="service-areas.html">Service Areas</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a class="nav-cta" href="estimate.html">Free Estimate</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Southern Maryland's</p>
+        <h1>Veteran-Owned <span>Junk Removal</span></h1>
+        <p class="hero-summary">Furniture, appliances, garage cleanouts, estate cleanouts, yard debris, and full property cleanouts—with honest pricing and military attention to detail.</p>
+        <div class="mission-statement"><span>Show Up.</span><span>Work Hard.</span><strong>Complete the Mission.</strong></div>
+        <div class="button-row">
+          <a class="button button-primary" href="estimate.html">Get My Free Estimate</a>
+          <a class="button button-secondary" href="tel:12403174193">Call (240) 317-4193</a>
+        </div>
+        <p class="customer-promise">★ Sergeant's Got Your Six™ ★</p>
+      </div>
+      <div class="hero-badge">
+        <img src="assets/images/logo.png" alt="Semper Fi Removal badge logo">
+        <p>Veteran-Owned</p><strong>Southern Maryland</strong>
+      </div>
+    </div>
+  </section>
+
+  <section class="trust-strip" aria-label="Why choose Semper Fi Removal">
+    <div class="container trust-grid trust-grid-simple">
+      <div><strong>Veteran-Owned</strong><span>Dependable, respectful service</span></div>
+      <div><strong>Free Estimates</strong><span>Clear pricing before work begins</span></div>
+      <div><strong>Heavy Lifting Included</strong><span>We lift, load, haul, and sweep</span></div>
+    </div>
+  </section>
+
+  <section class="section services-home">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">What We Remove</p>
+        <h2>Our Most Requested Services</h2>
+        <p>Choose the service that best matches your cleanup. Not sure? Send photos with your free estimate request.</p>
+      </div>
+
+      <div class="service-grid service-grid-simple">
+        <article class="card">
+          <span class="icon" aria-hidden="true">🛋️</span>
+          <h3>Furniture & Appliances</h3>
+          <p>Couches, mattresses, tables, refrigerators, washers, dryers, and more.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon" aria-hidden="true">🏠</span>
+          <h3>Garage & Home Cleanouts</h3>
+          <p>Clutter, boxes, stored belongings, basements, garages, and spare rooms.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon" aria-hidden="true">🏡</span>
+          <h3>Estate & Property Cleanouts</h3>
+          <p>Respectful support for families, landlords, realtors, and property managers.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon" aria-hidden="true">🌿</span>
+          <h3>Outdoor Debris Removal</h3>
+          <p>Brush, branches, lumber, fencing, storm debris, and outdoor clutter.</p>
+        </article>
+      </div>
+
+      <div class="section-action">
+        <a class="button button-secondary compact-button" href="services.html">See All Services</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section standard-section">
+    <div class="container standard-grid">
+      <div class="logo-panel"><img src="assets/images/logo.png" alt="Semper Fi Removal Sergeant logo"></div>
+      <div>
+        <div class="section-heading align-left"><p class="eyebrow">Our Promise</p><h2>The Sergeant Standard™</h2><p>Every mission is completed with honesty, discipline, respect, and attention to detail.</p></div>
+        <div class="promise-grid">
+          <article><span>✓</span><div><h3>Show Up On Time</h3><p>We communicate clearly and respect your schedule.</p></div></article>
+          <article><span>✓</span><div><h3>Work Hard</h3><p>You point. We lift, load, haul, sweep, and handle the job.</p></div></article>
+          <article><span>✓</span><div><h3>Respect Your Property</h3><p>We treat your home, business, and belongings with care.</p></div></article>
+          <article><span>✓</span><div><h3>Complete The Mission</h3><p>We leave your space cleaner, clearer, and easier to use.</p></div></article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section founder-section">
+    <div class="container founder-grid">
+      <div class="founder-photo"><img src="assets/images/about-truck.webp" alt="Semper Fi Removal Ford Excursion" loading="lazy"></div>
+      <div>
+        <div class="section-heading align-left"><p class="eyebrow">A Note From The Founder</p><h2>Meet Michael</h2></div>
+        <p>After serving in the United States Marine Corps, I wanted to continue serving my community by helping homeowners and businesses reclaim their space.</p>
+        <p>Whether you need one item removed or a complete property cleanout, the mission stays the same: show up on time, work hard, and finish the job with respect.</p>
+        <a class="text-link" href="about.html">Read the full story →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section service-area-section">
+    <div class="container service-area-simple">
+      <div class="section-heading">
+        <p class="eyebrow">Southern Maryland Service Area</p>
+        <h2>Serving St. Mary's County & Nearby Communities</h2>
+        <p>Service availability depends on the job size, schedule, and travel distance.</p>
+      </div>
+
+      <ul class="location-list location-list-centered">
+        <li>Lexington Park</li>
+        <li>Leonardtown</li>
+        <li>California</li>
+        <li>Great Mills</li>
+        <li>Hollywood</li>
+        <li>Mechanicsville</li>
+        <li>Lusby</li>
+        <li>Prince Frederick</li>
+      </ul>
+
+      <div class="section-action">
+        <a class="text-link" href="service-areas.html">View Service-Area Details →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section process-section">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">Simple Process</p>
+        <h2>From Cluttered to Mission Complete</h2>
+      </div>
+
+      <div class="process-grid">
+        <article><span>1</span><h3>Request an Estimate</h3><p>Call, text, or send photos through the estimate form.</p></article>
+        <article><span>2</span><h3>Approve the Price</h3><p>We explain the scope and confirm the price before work begins.</p></article>
+        <article><span>3</span><h3>We Clear the Space</h3><p>We lift, load, haul, and complete the final sweep.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <div class="container"><p class="eyebrow">Sergeant's Got Your Six™</p><h2>Ready To Reclaim Your Space?</h2><p>From the first call to the final sweep, we'll keep the mission clear and the process straightforward.</p><div class="button-row center"><a class="button button-primary" href="estimate.html">Request My Free Estimate</a><a class="button button-secondary" href="tel:12403174193">Call (240) 317-4193</a></div></div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand"><img src="assets/images/logo.png" alt="Semper Fi Removal logo"><div><h2>Semper Fi Removal</h2><p>Veteran-owned junk removal and property cleanouts serving Southern Maryland.</p><strong>Show Up. Work Hard. Complete the Mission.</strong></div></div>
+    <div><h3>Company</h3><a href="about.html">About</a><a href="services.html">Services</a><a href="pricing.html">Pricing</a><a href="gallery.html">Gallery</a><a href="estimate.html">Free Estimate</a></div>
+    <div><h3>Contact</h3><a href="tel:12403174193">(240) 317-4193</a><a href="mailto:info@semperfiremovalmd.com">info@semperfiremovalmd.com</a><a href="https://www.semperfiremovalmd.com/">semperfiremovalmd.com</a><p>Southern Maryland</p></div>
+  </div>
+  <div class="container footer-bottom"><span>© <span id="current-year"></span> Semper Fi Removal</span><span>Veteran-Owned • Southern Maryland</span></div>
+</footer>
+
+<div class="mobile-actions"><a href="estimate.html">Free Estimate</a><a href="tel:12403174193">Call Now</a></div>
+<script src="assets/js/app-v2.js"></script>
+</body>
+</html>
