@@ -1,0 +1,13 @@
+SEMPER FI REMOVAL WEBSITE V5.2 — FINAL MOBILE LAUNCH POLISH
+
+- Reduced mobile header height.
+- Improved truck/trailer crop.
+- Changed mobile headline to Junk Removal — Done Right.
+- Added clearer 2x2 trust points.
+- Added an early 5-star service-standard band.
+- Kept fixed Estimate / Call / Text bar.
+- Removed the personal truck photo from homepage and About page.
+- Replaced those photos with the final company logo.
+- No new equipment images added.
+
+Deploy the contents of this ZIP to the repository root, then confirm /version.html says V5.2.
