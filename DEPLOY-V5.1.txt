@@ -1,0 +1,12 @@
+SEMPER FI REMOVAL WEBSITE V5.1 — MOBILE POLISH
+
+Changes:
+- Hides redundant hero Estimate, Call, and Text buttons on mobile.
+- Keeps the fixed bottom Estimate / Call / Text bar.
+- Shortens the mobile hero image.
+- Moves and centers the mobile headline.
+- Fixes top-bar spacing and separator.
+- CALL/TEXT is blue and the phone number is red.
+- Desktop design and existing equipment images are unchanged.
+
+Deploy the contents of this ZIP to the repository root, then check /version.html for V5.1.
