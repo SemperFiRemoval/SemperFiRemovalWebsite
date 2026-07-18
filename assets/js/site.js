@@ -1,11 +1,12 @@
 
-const menuBtn=document.querySelector(".menu-btn");
-const mobileNav=document.querySelector(".mobile-nav");
-menuBtn?.addEventListener("click",()=>{
-  mobileNav?.classList.toggle("open");
+const menuButton=document.querySelector(".menu-button");
+const nav=document.querySelector(".main-nav");
+menuButton?.addEventListener("click",()=>{
+  nav?.classList.toggle("open");
   document.body.classList.toggle("menu-open");
+  menuButton.setAttribute("aria-expanded",nav?.classList.contains("open")?"true":"false");
 });
-document.querySelectorAll(".mobile-nav a").forEach(a=>a.addEventListener("click",()=>{
-  mobileNav?.classList.remove("open");document.body.classList.remove("menu-open");
+document.querySelectorAll(".main-nav a").forEach(a=>a.addEventListener("click",()=>{
+  nav?.classList.remove("open");document.body.classList.remove("menu-open");
 }));
 document.querySelectorAll("[data-year]").forEach(el=>el.textContent=new Date().getFullYear());
