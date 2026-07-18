@@ -1,0 +1,31 @@
+SEMPER FI REMOVAL WEBSITE V4.0 — FINAL BRAND
+
+FINAL LOGO
+- White SEMPER
+- Silver FI
+- Red REMOVAL
+- Red horizontal stripes
+- Gold star
+- White SHOW UP. WORK HARD.
+- Gold COMPLETE THE MISSION.
+- White/silver bulldog with right-side shading
+- Red spiked collar
+
+WEBSITE
+- Fully responsive desktop, tablet, and mobile homepage
+- Hamburger mobile navigation
+- Fixed mobile Estimate / Call / Text bar
+- Complete desktop navigation on every page
+- Restored owner-focused About page
+- Current phone: (240) 317-4193
+- Current email: info@semperfiremovalmd.com
+- Operating availability: 24/7
+
+DEPLOYMENT
+1. Delete all existing website files and the old assets folder from GitHub.
+2. Commit that deletion.
+3. Upload the CONTENTS of this ZIP directly to the repository root.
+4. Commit and wait for GitHub Pages deployment.
+5. Open https://semperfiremovalmd.com/version.html
+6. Confirm it says Website V4.0.
+7. Hard refresh with Ctrl + Shift + R.

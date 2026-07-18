@@ -1,0 +1,22 @@
+SEMPER FI REMOVAL WEBSITE V5.0 — LAUNCH READY
+
+Includes:
+- Black-background responsive homepage
+- Lifted all-black Excursion
+- Black landscaping trailer with black plywood walls
+- Final logo on trailer
+- Red Estimate, Call, and blue Text Us buttons
+- Working desktop/mobile navigation
+- Owner About page and all supporting pages
+- Phone: (240) 317-4193
+- Email: info@semperfiremovalmd.com
+- Available 24/7
+
+Deploy:
+1. Back up the current GitHub repository.
+2. Delete old site files and assets folder; commit.
+3. Upload the CONTENTS of this ZIP to the repository root; commit.
+4. Wait for GitHub Pages.
+5. Open /version.html and confirm V5.0.
+6. Hard refresh with Ctrl+Shift+R.
+7. Test every link, Call, Text, and Estimate on phone and desktop.

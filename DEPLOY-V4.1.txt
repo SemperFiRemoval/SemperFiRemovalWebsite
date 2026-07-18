@@ -1,0 +1,17 @@
+SEMPER FI REMOVAL WEBSITE V4.1 — HOMEPAGE HERO UPDATE
+
+CHANGES
+- Removed the large standalone company logo from the right side of the homepage hero.
+- Added a Ford Excursion towing a black landscaping trailer.
+- Trailer has built-up plywood walls.
+- Semper Fi Removal company branding appears on the trailer.
+- Mobile layout and all existing pages remain intact.
+
+DEPLOYMENT
+1. Delete the current website files and assets folder from GitHub.
+2. Commit the deletion.
+3. Upload the CONTENTS of this ZIP to the repository root.
+4. Commit and wait for GitHub Pages deployment.
+5. Open https://semperfiremovalmd.com/version.html
+6. Confirm it says Website V4.1.
+7. Hard refresh the homepage with Ctrl + Shift + R.

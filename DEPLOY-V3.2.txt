@@ -1,0 +1,24 @@
+SEMPER FI REMOVAL WEBSITE V3.2 — NAVIGATION FIX
+
+The supporting pages previously contained only the mobile header.
+On desktop, that header was hidden, leaving no visible navigation.
+
+V3.2 adds a complete desktop header and navigation bar to:
+- Services
+- Pricing
+- Service Areas
+- Gallery
+- About
+- Reviews
+- Contact
+- Free Estimate
+- Thank You
+
+DEPLOYMENT
+1. Delete the old site files and assets folder from GitHub.
+2. Commit the deletion.
+3. Upload the CONTENTS of this ZIP to the repository root.
+4. Commit the upload and wait for GitHub Pages deployment.
+5. Open /version.html and confirm it says Website V3.2.
+6. Test Services, Pricing, About, Contact, and Home.
+7. Hard refresh with Ctrl + Shift + R.
